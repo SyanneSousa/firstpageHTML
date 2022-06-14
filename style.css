@@ -1,0 +1,35 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    display: flex;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+body div{
+    border: 1px solid black;
+    width: 400px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    background-image: url(images/background.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+body div ul{
+    list-style: none;
+}
+body div ul li{
+    display: flex;
+    align-items: center;
+    margin: 10px
+}
+body div h1{
+    margin: 10px;
+}
