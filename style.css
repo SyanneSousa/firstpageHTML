@@ -25,11 +25,12 @@ body div{
 body div ul{
     list-style: none;
 }
-body div ul li{
-    display: flex;
-    align-items: center;
-    margin: 10px
+
+body div ul a {
+    text-decoration: none;
+    color: black;
 }
+
 body div h1{
     margin: 10px;
 }
